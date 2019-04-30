@@ -1,0 +1,19 @@
+{
+  "name": "cypress-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open":"cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://stash.mfl.co.uk/scm/qs/cypress-poc.git"
+  },
+  "author": "steve bartholomew",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.2.0"
+  }
+}
