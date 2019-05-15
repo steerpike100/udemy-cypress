@@ -1,7 +1,10 @@
 {
   "devDependencies": {
     "cypress": "^3.2.0",
+    "cypress-cucumber-preprocessor": "^1.11.0",
     "mocha": "^6.1.4"
   },
-  "dependencies": {}
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
 }

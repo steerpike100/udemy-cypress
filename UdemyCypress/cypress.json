@@ -1,1 +1,6 @@
-{}
+{
+  "video": true,
+  "trashAssetsBeforeRuns": true,
+  "screenshotsFolder": "cypress/screenshots",
+  "ignoreTestFiles": "*.js"
+}
