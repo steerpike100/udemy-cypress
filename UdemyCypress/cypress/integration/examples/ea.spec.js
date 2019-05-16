@@ -15,12 +15,12 @@ describe("Testing of EA app", () => {
     })
 });
 
-it("Testing EA Site for assertion with Hooks", () => {
-    cy.get("[aria-label='jump to slide 2']", {timeout: 60000}).should(($x) => {
-        expect($x).to.have.class("ls-nav-active");
-    })
-
-});
+// it("Testing EA Site for assertion with Hooks", () => {
+//     cy.get("[aria-label='jump to slide 2']", {timeout: 60000}).should(($x) => {
+//         expect($x).to.have.class("ls-nav-active");
+//     })
+//
+// });
 
 it("Performing Benefit check", () => {
 

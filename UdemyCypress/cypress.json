@@ -1,7 +1,6 @@
 {
   "video": true,
   "screenshotsFolder": "cypress/screenshots",
-  "baseUrl": "http://eaap.somee.com",
   "env": {
     "username": "admin"
   }
